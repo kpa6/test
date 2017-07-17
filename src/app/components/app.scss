@@ -1,0 +1,29 @@
+fieldset {
+	margin: 20px 0;
+	text-align: left;
+	border: 1px solid #4e3b3b;
+	padding: 20px;
+}
+table {
+	width: 100%;
+}
+th, td {
+	border: 1px solid #a7a7a7;
+	padding: 5px;
+	text-align: center;
+	width: 33%;
+	word-wrap: break-word;
+}
+td {
+	height: 130px;
+}
+td:first-child:nth-last-child(2),
+td:first-child:nth-last-child(2) ~ td.measurements {
+    width: 60%;
+}
+.measurements {
+	width: 30%;
+}
+._id {
+	width: 30%;
+}
